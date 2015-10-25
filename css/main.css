@@ -39,6 +39,7 @@ body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  background-color: #F8F8F8;
 }
 
 .grid-item--name .overlay {
@@ -94,7 +95,6 @@ body {
 
 .button-group {
   padding: 10px 0;
-  background-color: #F8F8F8;
 }
 
 .button {
