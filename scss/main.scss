@@ -20,7 +20,7 @@ body {
 
 .grid-sizer,
 .grid-item {
-  width: 99%;
+  width: 100%;
   padding: 0;
   margin-bottom: 5px;
 
@@ -86,7 +86,7 @@ body {
 @media (min-width: 1200px){
   .grid-sizer,
   .grid-item {
-    width: 24.5%;
+    width: 24.7%;
   }
 
 }
@@ -94,7 +94,7 @@ body {
 @media (min-width: 1500px){
   .grid-sizer,
   .grid-item {
-    width: 19.5%;
+    width: 19.7%;
   }
 }
 

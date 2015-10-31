@@ -14,6 +14,7 @@ html( lang="en" )
 
   body
     .grid
+      .grid-sizer
       .grid-item.grid-item--name.f.uni1.uni2.p
         .content
           img(src='images/heading-min.jpg')
@@ -28,7 +29,6 @@ html( lang="en" )
               span Exhibition Design Year 2
             button(data-filter='.p').button.button__pencil
               span Pencil Drawings
-      .grid-sizer
       .grid-item
         img(src='images/Photoshop Collage 2-min.jpg', alt='', onload="$(this).fadeIn(1000)",style="display:none" )
       .grid-item.uni2
@@ -103,9 +103,6 @@ html( lang="en" )
         img(src='images/Serial Planes Project 2-min.jpg', alt='', onload="$(this).fadeIn(1000)",style="display:none")
       .grid-item.uni2
         img(src='images/Themeatic Diagram. Grey border-min.jpg', alt='', onload="$(this).fadeIn(1000)",style="display:none")
-
-
-
       .grid-item
         img(src='images/Canon Stand 1. No border-min.jpg', alt='', onload="$(this).fadeIn(1000)",style="display:none")
       .grid-item
@@ -126,8 +123,7 @@ html( lang="en" )
         img(src='images/Plan. No border-min.jpg', alt='', onload="$(this).fadeIn(1000)",style="display:none")
       .grid-item
         img(src='images/Thematic Sequence Board. Grey border-min.jpg', alt='', onload="$(this).fadeIn(1000)",style="display:none")
-
-      
+     
 
   script( src='javascript/imagesloaded.pkgd.min.js' )
   script( src='//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js')
