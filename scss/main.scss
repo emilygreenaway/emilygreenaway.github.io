@@ -38,6 +38,18 @@ body {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+
+    .social-buttons {
+      img {
+        width: 36px;
+        display: inline-block;
+        margin: 0 3% 6% 3%;
+      }
+
+      img:hover{
+        opacity: 0.8;
+      }
+    }
     // background-color: #F8F8F8;
   }
 
