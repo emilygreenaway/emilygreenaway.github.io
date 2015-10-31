@@ -39,7 +39,6 @@ body {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  background-color: #F8F8F8;
 }
 
 .grid-item--name .overlay {
