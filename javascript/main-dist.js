@@ -1,0 +1,1 @@
+var $grid=$(".grid").isotope({itemSelector:".grid-item",percentPosition:!0,masonry:{columnWidth:".grid-sizer",gutter:5}});$grid.imagesLoaded().progress(function(){$grid.isotope("layout")}),$(".filter-button-group").on("click","button",function(){var t=$(this).attr("data-filter");$grid.isotope({filter:t})});

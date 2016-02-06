@@ -1,4 +1,4 @@
-doctype
+doctype html
 html( lang="en" )
   head
     title Emily Greenaway
@@ -13,11 +13,15 @@ html( lang="en" )
     script( src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js' )
 
   body
+    // Google Analytics
     script.
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-71096511-1', 'auto');  ga('send', 'pageview');
+    // Google Analytics End
 
+    // Images
     .grid
       .grid-sizer
+      // Filters, links and logo
       .grid-item.grid-item--name.f.uni1.uni2.p
         .content
           img(src='images/heading-min.jpg' alt="Emily Greenaway - Exhibition Design Student")
@@ -41,6 +45,7 @@ html( lang="en" )
               img(src='images/Wordpress.png' alt="Wordpress Blog")
             a(href="https://www.linkedin.com/in/egreenaway" target="_blank")
               img(src='images/Linkedin.png' alt="Linked In Account")
+      // Filters, links and logo End
       .grid-item
         img(src='images/Photoshop%20Collage%202-min.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none" )
       .grid-item.uni2
@@ -88,7 +93,7 @@ html( lang="en" )
       .grid-item.f
         img(src='images/Foundation%20Show-min.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
       .grid-item.uni1
-        img(src='images/Canon Stand%201.%20No%20border-min.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
+        img(src='images/Canon%20Stand%201.%20No%20border-min.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
       .grid-item
         img(src='images/Acrylic%20Illustration-min.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
       .grid-item.uni1
@@ -134,7 +139,7 @@ html( lang="en" )
       .grid-item.uni1
         img(src='images/Plan.%20No%20border-min.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
       .grid-item.uni2
-        img(src='images/Thematic%20Sequence%20Board.%20Grey border-min.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
+        img(src='images/Thematic%20Sequence%20Board.%20Grey%20border-min.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
       //- Images added 06/02/2016
       .grid-item.uni2
         img(src='images/BOXPARKISOMETRIC%20resized%20and%20watermarked.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
@@ -157,7 +162,11 @@ html( lang="en" )
         img(src='images/Stairs%20View.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
       .grid-item.uni2
         img(src='images/View%20from%20stairs%20Rendered.jpg', alt='Emily Greenaway\'s Artwork', onload="$(this).fadeIn(1000)",style="display:none")
+    // Images End
 
+    // Scripts
+    script( src='javascript/jquery-1.12.0.js' )
     script( src='javascript/imagesloaded.pkgd.min.js' )
-    script( src='//cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js')
-    script( src='javascript/main.js' )
+    script( src='javascript/isotope.pkgd.min.js')
+    script( src='javascript/main-dist.js' )
+    // Scripts End
