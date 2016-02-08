@@ -1,8 +1,11 @@
-# Adding images #
+# Demo #
+[www.EmilyGreenaway.com](http://www.emilygreenaway.com)
 
-1. Reduce the width to 500px using FastStone Photo Resizer
-- landscape = 250px
-- portrait = 1000px
-- square = 500px
+## Adding images ##
 
-2. Minimise the images with http://compressjpeg.com/
+Reduce the width to 500px using FastStone Photo Resizer
+- landscape = 250px high
+- portrait = 1000px high
+- square = 500px high
+
+Minimise the images with http://compressjpeg.com/
